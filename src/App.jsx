@@ -56,6 +56,7 @@ const App = () => {
             <Send className="w-8 h-8" />
             Email Sender
           </h1>
+          <p>With personal SMTP mail server</p>
         </div>
         
         <form onSubmit={handleSubmit} className="p-6 space-y-5">
